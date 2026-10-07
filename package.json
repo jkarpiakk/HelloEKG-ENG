@@ -1,0 +1,18 @@
+{
+  "name": "helloekg-en",
+  "private": true,
+  "type": "module",
+  "description": "helloEKG — English landing page (static, deployable to home.pl)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "images": "node scripts/render-images.mjs",
+    "fonts": "bash scripts/subset-fonts.sh",
+    "serve": "php -S 127.0.0.1:8080 -t public",
+    "qa": "node scripts/qa.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "playwright": "^1.50.0"
+  }
+}

@@ -1,0 +1,616 @@
+# helloEKG — Online ECG Interpretation Course (full text)
+
+Source: https://helloekg.com/ · Last reviewed: 2026-10-07 · Educational content for healthcare professionals and students; not medical advice.
+
+## Case 01 — Case 01 · 03:12 · Emergency department
+
+Mark, 58. Courier. Crushing chest pain. Heart rate: 40. An hour of pain behind the sternum. Pale, sweating, blood pressure 86/50. P waves march at 88/min, while narrow QRS complexes at 40/min ignore them. ST elevation in II, III and aVF — highest in III — with ST depression in I and aVL.
+
+**Question:** Where is the block — and what is driving it?
+
+A. Below the AV node: an LAD occlusion has destroyed both bundle branches.
+B. In the AV node: the right coronary artery is occluded, starving the AV nodal artery and triggering a vagal surge.
+C. Everywhere: hyperkalemia is blocking conduction throughout the heart.
+D. In the sinus node: a circumflex occlusion has stopped it firing.
+
+**Answer:** B. In the AV node: the right coronary artery is occluded, starving the AV nodal artery and triggering a vagal surge.
+
+### Read the territory
+
+ST elevation in II, III and aVF with reciprocal depression in aVL is an inferior STEMI. Elevation in III greater than in II, plus ST depression in lead I, points to the right coronary artery rather than the circumflex.
+
+### Why the AV node
+
+In roughly 80–90% of people the AV nodal artery branches from the RCA. Occlude the RCA and the node goes ischemic. Two more mechanisms pile on: the Bezold–Jarisch reflex — vagal afferents in the inferior wall fire, slowing the heart and dropping blood pressure — and adenosine released by ischemic tissue, which blocks the node further. That is why aminophylline sometimes works when atropine doesn’t.
+
+### Why it is less sinister than it looks
+
+The block sits high, so the escape rhythm is junctional: narrow QRS, 40–60/min, fairly reliable. It often responds to atropine and usually resolves after reperfusion. Complete block in an anterior STEMI is a different animal: the septum and both bundle branches are necrotic, the escape is ventricular — wide, 20–40/min, unstable — and pacing is almost always needed.
+
+### What you do at 03:12
+
+Activate the cath lab — reperfusion is the treatment for this block. Record V4R: an RCA occlusion often takes the right ventricle with it. An infarcted right ventricle is preload-dependent, so avoid nitrates and diuretics and give fluid carefully. Atropine for symptomatic bradycardia, pacing pads on.
+
+**Pearl:** One ECG, three answers: which artery, which level of block — and what not to give.
+
+## The method — the heart is an orchestra, the ECG is the recording
+
+### The sinus node conducts. (P wave · < 120 ms)
+
+Every beat starts with a few thousand pacemaker cells high in the right atrium. Their impulse spreads across both atria: the P wave. Upright in II, inverted in aVR — that is what “sinus” means on paper.
+
+At the bedside: No P waves and an irregular rhythm? Someone else has taken the baton: atrial fibrillation.
+
+### The AV node keeps time. (PR interval · 120–200 ms)
+
+The impulse slows down on purpose. Calcium-driven nodal cells hold it for about a tenth of a second, so the atria can finish filling the ventricles. On the ECG it looks like nothing. In the patient it is everything.
+
+At the bedside: Longer than 200 ms: first-degree AV block. Getting longer until a beat drops: Wenckebach.
+
+### His–Purkinje is the highway. (QRS complex · < 120 ms)
+
+Through the bundle of His, down both bundle branches and into the Purkinje network at up to 4 meters per second. The whole ventricular mass fires in under a tenth of a second — which is why a normal QRS is narrow.
+
+At the bedside: QRS of 120 ms or more: a blocked bundle, or a beat that started in the ventricle itself.
+
+### The plateau holds the note. (ST segment · isoelectric)
+
+Every ventricular cell now sits at the same voltage, balanced between calcium flowing in and potassium flowing out. No gradient, no current: a flat line. Which is exactly why ischemia, which breaks that balance, shows up here first.
+
+At the bedside: ST elevation in a territory with reciprocal depression: an occluded artery until proven otherwise.
+
+### Repolarization resets the stage. (T wave · QTc < 450–460 ms)
+
+The ventricles recover from the outside in, so the T wave usually points the same way as the QRS. The QT measures the whole performance — and when it runs long, the next beat can start too early.
+
+At the bedside: QTc above 500 ms: stop QT-prolonging drugs, check potassium and magnesium.
+
+## The ECG Challenge — 30 questions
+
+### 1. The PR segment is flat — yet a lot is happening during it. What?
+
+Topic: Physiology · Link: https://helloekg.com/#q-pr-segment
+
+A. The sinus node recharging for the next beat
+B. Slow conduction through the AV node — too little tissue to register on the surface ECG
+C. Depolarization of the interventricular septum
+D. Atrial repolarization cancelling out ventricular activity
+
+**Answer:** B. Slow conduction through the AV node — too little tissue to register on the surface ECG
+
+**Why:** After the P wave the impulse enters the AV node. Nodal cells depolarize through slow L-type calcium channels instead of fast sodium channels, so conduction drops to about 0.05 m/s. The node is tiny, so its activity is invisible at the skin and the trace stays flat. The delay is deliberate: it lets atrial contraction top up ventricular filling before systole.
+
+**Pearl:** PR over 200 ms is first-degree AV block: the gatekeeper is slower than usual, but every beat still gets through.
+
+### 2. Why is the ST segment normally isoelectric?
+
+Topic: Physiology · Link: https://helloekg.com/#q-st-isoelectric
+
+A. Every ventricular myocyte sits on its plateau at a similar voltage, so no current flows between regions
+B. Vagal tone suppresses electrical activity after the QRS
+C. The Purkinje fibers are refractory
+D. The ventricles are electrically silent between beats
+
+**Answer:** A. Every ventricular myocyte sits on its plateau at a similar voltage, so no current flows between regions
+
+**Why:** During phase 2 — the plateau — inward L-type Ca²⁺ current balances outward K⁺ current and practically every ventricular cell holds the same potential. No voltage gradient, no net current, a flat line. Ischemic cells cannot hold the plateau; the “injury current” between healthy and injured myocardium is what pushes the ST segment up or down.
+
+**Pearl:** ST deviation is the earliest bedside window into ischemia because it measures a voltage gradient that should not exist.
+
+### 3. Depolarization and repolarization carry opposite electrical signs. So why is the T wave usually upright wherever the QRS is upright?
+
+Topic: Physiology · Link: https://helloekg.com/#q-t-wave-direction
+
+A. Only the left ventricle repolarizes
+B. The T wave reflects atrial repolarization
+C. Repolarization travels the opposite way — from epicardium to endocardium
+D. The ECG machine inverts the signal after the QRS
+
+**Answer:** C. Repolarization travels the opposite way — from epicardium to endocardium
+
+**Why:** Depolarization spreads from endocardium to epicardium. Epicardial cells have shorter action potentials, so they repolarize first: repolarization runs from epicardium to endocardium. A wave of opposite sign travelling in the opposite direction produces a deflection of the same polarity — a concordant T wave. When that gradient flips (ischemia, hypertrophy with strain, bundle branch block), T waves invert.
+
+**Pearl:** In bundle branch block a discordant ST–T is expected. A concordant one is a red flag.
+
+### 4. In sinus rhythm the P wave, QRS and T wave are all negative in aVR. What does an upright P wave in aVR most likely mean?
+
+Topic: Physiology · Link: https://helloekg.com/#q-avr-upright-p
+
+A. Right atrial enlargement
+B. Inferior myocardial infarction
+C. Limb lead reversal — or, rarely, dextrocardia
+D. A normal variant in athletes
+
+**Answer:** C. Limb lead reversal — or, rarely, dextrocardia
+
+**Why:** aVR looks at the heart from the right shoulder. Normal atrial and ventricular activation travels down and to the left, away from aVR, so everything there is negative. An upright P in aVR together with a negative P and QRS in lead I suggests swapped arm electrodes. Dextrocardia produces the same limb-lead picture but also loses R-wave progression across V1–V6.
+
+**Pearl:** Before you diagnose anything, check lead I and aVR. Ten seconds of technique saves an afternoon of wrong conclusions.
+
+### 5. Lead I is positive and aVF is negative. Which lead decides whether the axis is pathological?
+
+Topic: Physiology · Link: https://helloekg.com/#q-axis-lead-ii
+
+A. Lead II — if it is negative, there is left axis deviation beyond −30°
+B. aVR — if it is positive, the axis is normal
+C. None — this is always left axis deviation
+D. V1 — if it is positive, there is right axis deviation
+
+**Answer:** A. Lead II — if it is negative, there is left axis deviation beyond −30°
+
+**Why:** Positive I and negative aVF place the axis between 0° and −90°. Lead II sits at +60°, so its perpendicular is −30° — exactly the boundary you care about. If II is still positive, the axis lies between 0° and −30°: normal. If II is negative, the axis is beyond −30°: true left axis deviation, most often from left anterior fascicular block.
+
+**Pearl:** Two leads give you the quadrant; the third gives you the verdict.
+
+### 6. A regular narrow-complex tachycardia at exactly 150/min. What do you suspect first?
+
+Topic: Rhythm · Link: https://helloekg.com/#q-flutter-150
+
+A. Atrial fibrillation
+B. Ventricular tachycardia
+C. Sinus tachycardia
+D. Atrial flutter with 2:1 conduction
+
+**Answer:** D. Atrial flutter with 2:1 conduction
+
+**Why:** Typical flutter is a macro-reentrant circuit around the tricuspid annulus that drives the atria at about 300/min. The AV node usually lets every second wave through, so the ventricles run at about 150/min. Flutter waves hide inside the QRS and T, so look for a sawtooth baseline in II, III and aVF and a second P-like bump in V1.
+
+**Pearl:** Regular, narrow, 150: flutter with 2:1 conduction until proven otherwise.
+
+### 7. You give adenosine for a regular narrow-complex tachycardia at 150/min. For a few seconds the ventricular rate drops and sawtooth waves at 300/min appear — then the tachycardia resumes. What happened?
+
+Topic: Rhythm · Link: https://helloekg.com/#q-adenosine-flutter
+
+A. Adenosine failed because the dose was too low
+B. Adenosine converted the rhythm into AVNRT
+C. Adenosine blocked the AV node and unmasked atrial flutter, which does not need the node to continue
+D. Adenosine revealed ventricular tachycardia
+
+**Answer:** C. Adenosine blocked the AV node and unmasked atrial flutter, which does not need the node to continue
+
+**Why:** Adenosine acts on A1 receptors in the AV node, opening potassium channels and hyperpolarizing nodal cells: a transient AV block. Rhythms that use the node as part of their circuit (AVNRT, AVRT) terminate. Flutter lives entirely in the atrium, so it keeps going while the node is closed — and you finally see it. Its half-life is under 10 seconds: push fast, flush fast, and record a strip while you do it.
+
+**Pearl:** Adenosine is a drug and a diagnostic test in one syringe.
+
+### 8. Typical AVNRT at 180/min. Where are the P waves?
+
+Topic: Rhythm · Link: https://helloekg.com/#q-avnrt-p
+
+A. Buried in or just after the QRS — a pseudo-r′ in V1
+B. Absent, because the atria are not activated
+C. Before each QRS with a short PR interval
+D. Dissociated from the QRS complexes
+
+**Answer:** A. Buried in or just after the QRS — a pseudo-r′ in V1
+
+**Why:** In typical slow–fast AVNRT the impulse travels down the slow pathway and returns up the fast one. Atria and ventricles are activated almost simultaneously, so the retrograde P lands inside or at the tail of the QRS: a pseudo-r′ in V1 and pseudo-S waves in II, III and aVF. Compare with the patient’s sinus ECG — those notches disappear.
+
+**Pearl:** A notch that appears only during the tachycardia is a P wave in disguise.
+
+### 9. A 24-year-old has an irregular tachycardia at 240/min with broad QRS complexes that change shape from beat to beat. Which treatment is dangerous?
+
+Topic: Rhythm · Link: https://helloekg.com/#q-preexcited-af
+
+A. Ibutilide
+B. Procainamide
+C. Synchronized cardioversion
+D. Verapamil
+
+**Answer:** D. Verapamil
+
+**Why:** Irregular, very fast and broad-but-variable means pre-excited atrial fibrillation (WPW). The accessory pathway lacks the AV node’s decremental brake and can conduct at well over 250/min. Blocking the node — verapamil, diltiazem, adenosine, beta-blockers, digoxin, IV amiodarone — sends even more impulses down the pathway and can trigger ventricular fibrillation. Unstable: synchronized cardioversion. Stable: procainamide or ibutilide, or elective cardioversion.
+
+**Pearl:** Irregular, broad and faster than any AF you have seen: keep your hands off the AV node.
+
+### 10. Regular broad-complex tachycardia at 170/min in a 66-year-old with a previous myocardial infarction. Which finding proves ventricular tachycardia?
+
+Topic: Rhythm · Link: https://helloekg.com/#q-vt-proof
+
+A. The patient is hemodynamically stable
+B. Left axis deviation
+C. A QRS duration of 130 ms
+D. AV dissociation with capture and fusion beats
+
+**Answer:** D. AV dissociation with capture and fusion beats
+
+**Why:** When the ventricles drive the rhythm, the sinus node keeps firing on its own and P waves march through the QRS complexes: AV dissociation. Occasionally a sinus beat slips through the AV node in time to produce a narrow “capture” beat, or merges with a ventricular beat as a “fusion” beat. Both prove a ventricular origin. Stability proves nothing — VT can look deceptively well for a while.
+
+**Pearl:** Broad, regular, and a scar in the history: VT until proven otherwise. Most broad-complex tachycardias are.
+
+### 11. In classic Mobitz I (Wenckebach), why do the R–R intervals shorten just before the dropped beat?
+
+Topic: Conduction · Link: https://helloekg.com/#q-wenckebach-rr
+
+A. The PR keeps lengthening, but by a smaller amount with each beat
+B. The sinus rate speeds up
+C. The QRS becomes narrower
+D. A junctional pacemaker takes over
+
+**Answer:** A. The PR keeps lengthening, but by a smaller amount with each beat
+
+**Why:** The AV node conducts decrementally: each impulse arrives earlier in the node’s recovery and is slowed more. The biggest PR increment happens on the second beat of the cycle; after that the increments shrink. Because R–R equals P–P plus the change in PR, shrinking increments mean shortening R–R intervals — until one P wave fails to conduct and the node gets to rest.
+
+**Pearl:** Group beating, shortening R–R and a pause shorter than two P–P intervals: Wenckebach’s fingerprint.
+
+### 12. PR intervals are constant, then a P wave is suddenly not followed by a QRS. The QRS is 140 ms with RBBB morphology. Where is the block?
+
+Topic: Conduction · Link: https://helloekg.com/#q-mobitz-ii
+
+A. In the AV node — benign, observe
+B. Below the AV node, in the His–Purkinje system — high risk of complete block, pacing indicated
+C. In the atria — a non-conducted premature atrial beat
+D. In the sinus node — sinus exit block
+
+**Answer:** B. Below the AV node, in the His–Purkinje system — high risk of complete block, pacing indicated
+
+**Why:** Mobitz II is all-or-nothing. There is no warning PR prolongation because His–Purkinje tissue does not conduct decrementally. Combined with a bundle branch block, it signals disease in the remaining fascicles. It can progress abruptly to complete heart block with a slow, unreliable ventricular escape, which is why it is an indication for permanent pacing even without symptoms (once reversible causes are excluded).
+
+**Pearl:** Mobitz I warns you. Mobitz II does not.
+
+### 13. 2:1 AV block with a narrow QRS. After atropine, conduction improves to 3:2. What does that tell you?
+
+Topic: Conduction · Link: https://helloekg.com/#q-two-to-one-atropine
+
+A. The block is most likely in the AV node
+B. Atropine has unmasked Mobitz II
+C. Nothing — atropine does not affect the AV node
+D. The block is infranodal — pace immediately
+
+**Answer:** A. The block is most likely in the AV node
+
+**Why:** With 2:1 block you cannot watch the PR evolve, so you need other clues. Atropine removes vagal tone from both the sinus node and the AV node. A nodal block improves. An infranodal block often gets worse, because a faster sinus rate bombards a His–Purkinje system that cannot keep up. A narrow QRS, a response to atropine and Wenckebach elsewhere on the strip all point to the node.
+
+**Pearl:** In 2:1 block the drug response is the diagnosis: better with atropine means node; worse means below it.
+
+### 14. Why does left bundle branch block remove the small septal q waves in I, V5 and V6?
+
+Topic: Conduction · Link: https://helloekg.com/#q-lbbb-septal-q
+
+A. The septum now depolarizes from right to left — toward the lateral leads
+B. The left ventricle depolarizes first
+C. The q wave is hidden by a taller R wave
+D. The septum is infarcted
+
+**Answer:** A. The septum now depolarizes from right to left — toward the lateral leads
+
+**Why:** Normally the left bundle fires first, so the septum depolarizes from left to right — a small vector away from the lateral leads, seen as a tiny q in I, aVL, V5 and V6. When the left bundle is blocked, the septum is activated from the right bundle instead, right to left. The first vector now points toward V6, the q disappears, and the lateral leads show a broad, notched R.
+
+**Pearl:** No septal q in the lateral leads plus a QRS of 120 ms or more: think LBBB first.
+
+### 15. A patient in permanent atrial fibrillation who takes digoxin now has a perfectly regular ventricular rate of 42/min. What is happening?
+
+Topic: Conduction · Link: https://helloekg.com/#q-af-regularized
+
+A. Complete heart block with an escape rhythm — suspect digoxin toxicity
+B. Atrial flutter with 4:1 conduction
+C. AF has converted to sinus bradycardia
+D. Rate control is finally optimal — continue the dose
+
+**Answer:** A. Complete heart block with an escape rhythm — suspect digoxin toxicity
+
+**Why:** AF conducted through the AV node is always irregularly irregular. A regular rhythm means the ventricles are no longer listening to the atria: the node is blocked and a junctional or ventricular escape has taken over. In a patient on digoxin that is toxicity until proven otherwise — check the level, potassium and renal function.
+
+**Pearl:** AF that suddenly turns regular is never a reason to relax.
+
+### 16. A 52-year-old had chest pain yesterday. Today he is pain-free and troponin is normal. ECG: deep, symmetric T-wave inversion in V2–V3, preserved R waves, no Q waves. Next step?
+
+Topic: Ischemia · Link: https://helloekg.com/#q-wellens
+
+A. Repeat ECG in six weeks
+B. Treadmill stress test
+C. Urgent coronary angiography — this is Wellens’ syndrome
+D. Discharge with outpatient follow-up
+
+**Answer:** C. Urgent coronary angiography — this is Wellens’ syndrome
+
+**Why:** Wellens’ pattern — deep symmetric or biphasic T waves in V2–V3 in a pain-free patient — reflects reperfusion after a transient occlusion at a critical proximal LAD stenosis. The artery is open, for now. A stress test can precipitate an extensive anterior infarction. These patients need an invasive strategy.
+
+**Pearl:** Sometimes the most dangerous ECG is the one recorded after the pain has gone.
+
+### 17. Forty minutes of chest pain. V1–V6 show 1–3 mm upsloping ST depression at the J point running into tall, symmetric T waves; aVR shows slight ST elevation. No ST elevation in the precordial leads. Diagnosis?
+
+Topic: Ischemia · Link: https://helloekg.com/#q-de-winter
+
+A. Benign early repolarization
+B. Subendocardial ischemia — manage as NSTEMI
+C. De Winter T waves — acute proximal LAD occlusion
+D. Hyperkalemia
+
+**Answer:** C. De Winter T waves — acute proximal LAD occlusion
+
+**Why:** De Winter T waves are a STEMI equivalent seen in a small minority of acute proximal LAD occlusions. The mechanism is still debated, but the meaning is not: an occluded artery without classic ST elevation. Treat it like a STEMI and activate the cath lab.
+
+**Pearl:** No ST elevation does not mean no occlusion. Learn the equivalents.
+
+### 18. Chest pain with ST depression in V1–V3, tall R waves and upright T waves. Which leads do you record next?
+
+Topic: Ischemia · Link: https://helloekg.com/#q-posterior
+
+A. V3R and V4R
+B. V1–V3 one intercostal space higher
+C. V7–V9
+D. None — this is NSTEMI
+
+**Answer:** C. V7–V9
+
+**Why:** V1–V3 face the anterior wall, so a posterior infarct appears there as a mirror image: ST depression instead of elevation, tall R waves instead of Q waves. V7–V9, placed on the back, look at the posterior wall directly. ST elevation of 0.5 mm or more in V7–V9 confirms a posterior STEMI, usually from the circumflex or the RCA.
+
+**Pearl:** Flip the strip and hold it to the light: anterior ST depression is often a posterior STEMI.
+
+### 19. Known left bundle branch block and chest pain. Which finding most strongly suggests acute myocardial infarction?
+
+Topic: Ischemia · Link: https://helloekg.com/#q-sgarbossa
+
+A. A QRS duration of 160 ms
+B. Discordant ST elevation of 2 mm in V1
+C. Left axis deviation
+D. ST elevation of 1 mm or more concordant with the QRS
+
+**Answer:** D. ST elevation of 1 mm or more concordant with the QRS
+
+**Why:** In LBBB the ST segment normally points opposite to the main QRS deflection. Concordant ST elevation of at least 1 mm in any lead is the most specific Sgarbossa criterion. Concordant ST depression of at least 1 mm in V1–V3 also counts, and the Smith-modified rule flags discordant ST elevation that is excessive relative to the S wave (25% or more).
+
+**Pearl:** LBBB does not make the ECG unreadable. It makes it readable by a different rule.
+
+### 20. Which pattern favors acute pericarditis over STEMI?
+
+Topic: Ischemia · Link: https://helloekg.com/#q-pericarditis
+
+A. Convex ST elevation in II, III and aVF with ST depression in aVL
+B. Diffuse concave ST elevation with PR depression and PR elevation in aVR
+C. New Q waves
+D. ST elevation greater in III than in II
+
+**Answer:** B. Diffuse concave ST elevation with PR depression and PR elevation in aVR
+
+**Why:** Pericardial inflammation injures the epicardium broadly, so ST elevation is diffuse instead of following one coronary territory, and there are no reciprocal changes except in aVR and V1. Atrial injury depresses the PR segment, mirrored as PR elevation in aVR. STEMI respects a territory, produces reciprocal depression and evolves Q waves.
+
+**Pearl:** Territory plus reciprocity means an artery. Everywhere plus PR depression means the pericardium.
+
+### 21. Peaked T waves, a widening QRS, potassium 7.4 mmol/L. Why give IV calcium first, even though it does not lower potassium?
+
+Topic: Electrolytes & drugs · Link: https://helloekg.com/#q-hyperk-calcium
+
+A. Calcium restores the gap between resting potential and threshold — it stabilizes the membrane
+B. Calcium antagonizes digoxin
+C. Calcium shifts potassium into the cells
+D. Calcium increases renal potassium excretion
+
+**Answer:** A. Calcium restores the gap between resting potential and threshold — it stabilizes the membrane
+
+**Why:** High extracellular potassium makes the resting membrane potential less negative and brings it closer to threshold. Sodium channels partly inactivate, conduction slows (a wide QRS) and arrhythmias follow. Calcium raises the threshold potential and restores the safety margin within minutes, for about 30–60 minutes — time you use for insulin with glucose, beta-agonists and potassium removal.
+
+**Pearl:** Calcium protects the heart. Insulin moves potassium. Dialysis removes it. Three jobs, three treatments.
+
+### 22. Flattened T waves, ST depression and prominent U waves that make the QT look long. Most likely cause?
+
+Topic: Electrolytes & drugs · Link: https://helloekg.com/#q-hypok-u
+
+A. Hypercalcemia
+B. Hyperkalemia
+C. Hypokalemia
+D. Hypothermia
+
+**Answer:** C. Hypokalemia
+
+**Why:** Low extracellular potassium slows repolarization: T waves flatten, U waves grow and the two merge into what looks like a long QT — really a long QU. It is arrhythmogenic, especially with digoxin or QT-prolonging drugs. Check magnesium too: potassium often will not correct until magnesium does.
+
+**Pearl:** If the T wave has a hump, decide where the T ends before you measure anything.
+
+### 23. A long QT produced by a long, flat ST segment, with a normal-looking T wave. Which electrolyte?
+
+Topic: Electrolytes & drugs · Link: https://helloekg.com/#q-hypoca-st
+
+A. Hypomagnesemia
+B. Hypercalcemia
+C. Hyponatremia
+D. Hypocalcemia
+
+**Answer:** D. Hypocalcemia
+
+**Why:** Calcium sets the length of the plateau (phase 2), which on the ECG is the ST segment. Low calcium prolongs the plateau: a long, flat ST and a long QT, with the T wave itself unchanged. High calcium shortens the plateau: short ST, short QT. Most other QT prolongers — drugs, hypokalemia — change the shape of the T wave instead.
+
+**Pearl:** Long ST with a normal T: think calcium. Long QT with a strange T: think drugs and potassium.
+
+### 24. Which arrhythmia is classic for digoxin toxicity?
+
+Topic: Electrolytes & drugs · Link: https://helloekg.com/#q-digoxin-bvt
+
+A. Torsades de pointes
+B. Atrial fibrillation with a rapid ventricular response
+C. Pre-excitation (WPW pattern)
+D. Bidirectional ventricular tachycardia
+
+**Answer:** D. Bidirectional ventricular tachycardia
+
+**Why:** Digoxin inhibits the Na⁺/K⁺-ATPase, raising intracellular calcium (more automaticity, delayed afterdepolarizations) while increasing vagal tone (AV block). That combination produces signature rhythms: atrial tachycardia with block and bidirectional VT, in which the QRS axis alternates beat to beat (also seen in CPVT). The “reverse tick” ST depression is digoxin effect, not toxicity.
+
+**Pearl:** Increased automaticity and impaired conduction at the same time: suspect digoxin.
+
+### 25. A patient on a macrolide antibiotic develops polymorphic VT twisting around the baseline. QTc before the event was 560 ms. First-line drug?
+
+Topic: Electrolytes & drugs · Link: https://helloekg.com/#q-torsades-mg
+
+A. IV magnesium sulfate
+B. IV procainamide
+C. IV amiodarone
+D. IV sotalol
+
+**Answer:** A. IV magnesium sulfate
+
+**Why:** Torsades de pointes is triggered by early afterdepolarizations when repolarization is prolonged. IV magnesium (typically 2 g) suppresses those triggers even when serum magnesium is normal. Stop QT-prolonging drugs, bring potassium to high-normal, and if it recurs with bradycardia, raise the heart rate (isoprenaline or overdrive pacing) — a faster rate shortens the QT. Amiodarone, procainamide and sotalol all prolong the QT further.
+
+**Pearl:** Torsades: magnesium, potassium, speed it up — and never add another QT-prolonger.
+
+### 26. Pacing spikes appear just after the patient’s own QRS complexes, some landing on T waves. What is the problem?
+
+Topic: Devices & mimics · Link: https://helloekg.com/#q-undersensing
+
+A. Oversensing
+B. Failure to capture
+C. Normal pacemaker function
+D. Undersensing
+
+**Answer:** D. Undersensing
+
+**Why:** The pacemaker did not “see” the intrinsic beats, so it fired as if nothing had happened: undersensing. Spikes then fall at odd moments, including on the T wave, which can trigger VF (R-on-T). Failure to capture is a spike with no complex after it. Oversensing is the opposite: the device mistakes noise for beats and withholds pacing, producing pauses.
+
+**Pearl:** Sensing is the pacemaker’s hearing. Capture is its voice. Work out which one failed.
+
+### 27. A magnet is placed over a pacemaker, and separately over an ICD. What happens?
+
+Topic: Devices & mimics · Link: https://helloekg.com/#q-magnet
+
+A. Both switch to asynchronous pacing
+B. Both devices switch off
+C. The pacemaker paces asynchronously; the ICD suspends tachyarrhythmia therapy while bradycardia pacing continues
+D. The pacemaker switches off; the ICD delivers a shock
+
+**Answer:** C. The pacemaker paces asynchronously; the ICD suspends tachyarrhythmia therapy while bradycardia pacing continues
+
+**Why:** On most pacemakers a magnet forces asynchronous pacing (VOO or DOO) at a fixed magnet rate — useful during surgery with diathermy. On an ICD a magnet suspends tachyarrhythmia detection and shocks but does not change bradycardia pacing. Remove the magnet and both return to their programmed behavior. Behavior varies by manufacturer, so confirm with the device team.
+
+**Pearl:** A magnet on an ICD means “don’t shock”, not “pace”.
+
+### 28. A 32-year-old with a temperature of 39.5 °C. V1–V2 show coved ST elevation of 2 mm or more descending into a negative T wave. Which statement is correct?
+
+Topic: Devices & mimics · Link: https://helloekg.com/#q-brugada-fever
+
+A. Fever can unmask a type 1 Brugada pattern — a marker of risk for ventricular fibrillation
+B. It is benign early repolarization
+C. It is right bundle branch block — no action needed
+D. It is an anterior STEMI — activate the cath lab
+
+**Answer:** A. Fever can unmask a type 1 Brugada pattern — a marker of risk for ventricular fibrillation
+
+**Why:** Brugada syndrome is a sodium-channel disorder (often SCN5A). Reduced sodium current exaggerates the voltage gradient across the right ventricular outflow tract, producing the coved type 1 pattern in V1–V2. Fever and sodium-channel blockers weaken the current further and unmask it. Treat the fever aggressively, avoid sodium-channel blockers and refer to electrophysiology.
+
+**Pearl:** Fever plus a coved V1: bring the temperature down and call the electrophysiologist.
+
+### 29. Core temperature 29 °C. A positive notch at the J point, most visible in V3–V6. What is it?
+
+Topic: Devices & mimics · Link: https://helloekg.com/#q-osborn
+
+A. Type 1 Brugada pattern
+B. Osborn (J) wave — hypothermia
+C. Epsilon wave — arrhythmogenic cardiomyopathy
+D. Delta wave — pre-excitation
+
+**Answer:** B. Osborn (J) wave — hypothermia
+
+**Why:** Osborn waves are J-point deflections that grow as the temperature falls. They reflect a transient outward potassium current that is stronger in the epicardium than in the endocardium and is exaggerated by cold. Expect bradycardia, prolonged intervals, shivering artifact and — below about 30 °C — a rising risk of ventricular fibrillation.
+
+**Pearl:** A notch at the J point in a cold patient: warm first, interpret second.
+
+### 30. What is the most common ECG finding in acute pulmonary embolism?
+
+Topic: Devices & mimics · Link: https://helloekg.com/#q-pe-ecg
+
+A. Right bundle branch block
+B. Sinus tachycardia
+C. Right axis deviation
+D. S1Q3T3
+
+**Answer:** B. Sinus tachycardia
+
+**Why:** S1Q3T3 is famous but appears in a minority of patients. Sinus tachycardia is the most frequent finding, followed by T-wave inversion in V1–V4 and III, reflecting right ventricular strain. A normal ECG never excludes PE: the ECG helps you sense a strained right ventricle; it does not make the diagnosis.
+
+**Pearl:** In PE the ECG is a severity marker, not a test.
+
+## Curriculum — 7 modules
+
+### Module 01: Foundations — How the orchestra is wired
+
+1. The cardiac conduction system
+2. Limb and chest leads — twelve cameras on one heart
+3. Rhythm and heart rate
+4. The electrical axis
+
+### Module 02: Waves & intervals — Every deflection, explained
+
+1. The P wave and the atria
+2. The PR interval and the AV node
+3. The QRS complex and ventricular depolarization
+4. The ST segment and T wave — recognizing ischemia
+5. The QT interval
+
+### Module 03: Hypertrophy & ischemia — From voltage criteria to occlusion
+
+1. Left ventricular hypertrophy — criteria and pitfalls
+2. Right ventricular hypertrophy
+3. ST depression and ST elevation
+4. STEMI and NSTEMI
+5. Mapping infarcts to coronary territories
+
+### Module 04: Arrhythmias — Who took the baton?
+
+1. Supraventricular tachycardias — AVNRT, AVRT, AF and flutter
+2. Bradyarrhythmias and sinus node disease
+3. Ventricular tachycardia and ventricular fibrillation
+4. Mechanisms — re-entry, automaticity, triggered activity
+5. Differentiating arrhythmias on the ECG
+
+### Module 05: Conduction blocks — Delays, drops and dissociation
+
+1. First-degree AV block
+2. Second-degree AV block, Mobitz I (Wenckebach)
+3. Second-degree AV block, Mobitz II
+4. Third-degree (complete) heart block
+5. Bundle branch and fascicular blocks
+
+### Module 06: Pacemakers & devices — Spikes, capture and sensing
+
+1. How pacemakers work
+2. Atrial, ventricular and biventricular pacing on the ECG
+3. Troubleshooting a pacemaker
+4. ICDs on the ECG
+
+### Module 07: Clinical cases — From the patient to the trace
+
+1. Ten ECGs, one system
+2. The patient with chest pain
+3. The patient with palpitations
+4. The patient with syncope
+5. VF and STEMI — the first three minutes
+
+## FAQ
+
+### What is the best way to learn ECG interpretation?
+
+Understand the physiology first, then apply one systematic routine to every tracing: technique, rhythm, rate, axis, waves and intervals (P, PR, QRS, ST, T, QT) and finally the clinical context. Then practice with spaced, active recall on real cases. helloEKG is built around exactly that loop: a visual lesson, questions that explain why every option is right or wrong, and clinical cases.
+
+### How long does it take to learn to read an ECG?
+
+Most learners can read the basics — rhythm, rate, axis and the common blocks — after a few weeks of short daily practice. The full helloEKG course is about 16 hours of material across 7 modules and 33 lessons. Real confidence comes from volume, which is why every lesson ends with questions and every module with clinical cases.
+
+### Who is helloEKG for?
+
+Medical students, junior doctors and residents, paramedics and EMTs, nurses working in emergency, telemetry, cardiology or intensive care, and physician associates. You need basic anatomy and physiology; everything else is built from the ground up.
+
+### ECG or EKG — what is the difference?
+
+None. Both mean electrocardiogram. EKG comes from the German Elektrokardiogramm and is common in the United States; ECG is used in most other countries. We use ECG in the text and EKG in our name.
+
+### Is the content based on current guidelines?
+
+Yes. Explanations follow current European Society of Cardiology and ACC/AHA guidance and resuscitation council algorithms, and are reviewed before publication. When guidelines change, the affected lessons and questions are updated.
+
+### Do I get a certificate?
+
+Yes. When you pass the final exam you receive a certificate of completion with a verification link.
+
+### When does the English edition open?
+
+The English edition opens in waves. People on the list get access first, together with a free ECG case every week until then.
+
+### Is the ECG Challenge on this page free?
+
+Yes — all 30 questions and the weekly case are free, with no account required. The full course is paid; the price will be announced to the list first.
+
+### Does it work on my phone?
+
+Yes. helloEKG runs in the browser and was designed for phones first, so you can practice between patients, on the bus or the night before an exam.
+
+### Can an online course replace clinical training?
+
+No. helloEKG teaches you to interpret ECGs, but every tracing must be read in the context of the patient and your local protocols. The course is educational and does not provide medical advice.

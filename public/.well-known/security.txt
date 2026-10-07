@@ -1,0 +1,4 @@
+Contact: mailto:hello@helloekg.com
+Expires: 2027-10-07T00:00:00Z
+Preferred-Languages: en, pl
+Canonical: https://helloekg.com/.well-known/security.txt

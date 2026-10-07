@@ -1,0 +1,25 @@
+# helloEKG
+
+> helloEKG is an online ECG (EKG) interpretation course that teaches from cardiac physiology outward: visual lessons with live traces, 700+ questions that explain why every option is right or wrong, and clinical cases. 7 modules, 33 lessons, about 16 hours. For medical students, junior doctors, paramedics/EMTs and nurses. English edition: early access list at https://helloekg.com/#join. Polish edition: https://helloekg.pl/.
+
+Key facts:
+- Method: physiology first, pattern second — "the heart is an orchestra, the ECG is the recording"; 12 leads are 12 cameras filming the same heart.
+- Systematic reading order taught in every case: technique → rhythm → rate → axis → waves and intervals (P, PR, QRS, ST, T, QT) → clinical context.
+- Question formats: multiple choice, tap-the-trace (hotspot), drag and drop, matching, sorting, fill-in.
+- Explanations reference current ESC and ACC/AHA guidelines and resuscitation council algorithms; content is medically reviewed before publication.
+- Free on the website: Case 01 and the 30-question ECG Challenge, no account required; a weekly ECG case by email.
+- Contact: hello@helloekg.com
+
+## Pages
+
+- [helloEKG — Online ECG Course (home)](https://helloekg.com/): Case 01, the method, 12-lead territories, the ECG Challenge, curriculum and FAQ.
+- [Case 01 — inferior STEMI with complete heart block](https://helloekg.com/#case): Mark, 58. Courier. Crushing chest pain. Heart rate: 40.
+- [The ECG Challenge](https://helloekg.com/#challenge): 30 physiology-based ECG questions with explanations.
+- [Curriculum](https://helloekg.com/#curriculum): Foundations · Waves & intervals · Hypertrophy & ischemia · Arrhythmias · Conduction blocks · Pacemakers & devices · Clinical cases.
+- [FAQ](https://helloekg.com/#faq): 10 questions about learning ECG interpretation and the course.
+- [Privacy policy](https://helloekg.com/privacy)
+
+## Optional
+
+- [Full text of all questions, answers and explanations](https://helloekg.com/llms-full.txt)
+- [Polish edition — helloekg.pl](https://helloekg.pl/)

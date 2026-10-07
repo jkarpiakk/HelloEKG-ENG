@@ -1,0 +1,10 @@
+/* TEAM */
+Product: helloEKG — https://helloekg.com
+Contact: hello@helloekg.com
+From: Poland
+
+/* SITE */
+Last update: 2026-10-07
+Language: English
+Standards: HTML, CSS, vanilla JavaScript, WebGL
+Fonts: Space Grotesk, Inter, JetBrains Mono (self-hosted)

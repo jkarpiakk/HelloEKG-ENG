@@ -1,0 +1,52 @@
+// Coronary territories for the interactive 12-lead map.
+export default [
+  {
+    id: 'inferior',
+    label: 'Inferior',
+    leads: ['II', 'III', 'aVF'],
+    reciprocal: ['I', 'aVL'],
+    artery: 'Right coronary artery (most often) or circumflex',
+    pearl: 'Record V4R — the right ventricle often goes down with the RCA. Watch for AV block.',
+  },
+  {
+    id: 'lateral',
+    label: 'Lateral',
+    leads: ['I', 'aVL', 'V5', 'V6'],
+    reciprocal: ['II', 'III', 'aVF'],
+    artery: 'Circumflex or a diagonal branch of the LAD',
+    pearl: 'High lateral (I, aVL) infarcts are easy to miss — the elevation can be barely a millimeter.',
+  },
+  {
+    id: 'anterior',
+    label: 'Anterior',
+    leads: ['V3', 'V4'],
+    reciprocal: ['II', 'III', 'aVF'],
+    artery: 'Left anterior descending',
+    pearl: 'Anterior plus I and aVL means a proximal LAD and a large territory at risk.',
+  },
+  {
+    id: 'septal',
+    label: 'Septal',
+    leads: ['V1', 'V2'],
+    reciprocal: [],
+    artery: 'Septal perforators of the LAD',
+    pearl: 'The septum carries the bundle branches: new RBBB in an anterior MI is a bad sign.',
+  },
+  {
+    id: 'posterior',
+    label: 'Posterior',
+    leads: ['V1', 'V2', 'V3'],
+    mirror: true,
+    reciprocal: [],
+    artery: 'Circumflex or right coronary artery',
+    pearl: 'Seen as a mirror image in V1–V3: ST depression and tall R. Confirm with V7–V9.',
+  },
+  {
+    id: 'avr',
+    label: 'aVR',
+    leads: ['aVR'],
+    reciprocal: ['I', 'II', 'V4', 'V5', 'V6'],
+    artery: 'Left main, proximal LAD or three-vessel disease',
+    pearl: 'ST elevation in aVR with widespread ST depression: diffuse subendocardial ischemia until proven otherwise.',
+  },
+];

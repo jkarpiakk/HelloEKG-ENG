@@ -1,0 +1,10 @@
+node_modules/
+qa/
+.DS_Store
+# server-side secrets & subscriber data never go to git
+static/api/config.php
+public/api/config.php
+static/api/_data/*
+!static/api/_data/.htaccess
+public/api/_data/*
+!public/api/_data/.htaccess
