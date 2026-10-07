@@ -20,6 +20,12 @@ async function submit(form) {
     return;
   }
   input.removeAttribute('aria-invalid');
+  // Static preview (no PHP backend): show what would happen, send nothing.
+  if (window.__HEKG_PREVIEW__) {
+    form.classList.add('is-done');
+    setStatus(form, `Preview only — on helloekg.com this sends a confirmation email to ${email}.`, 'ok');
+    return;
+  }
   btn.disabled = true;
   setStatus(form, 'Sending…');
   const data = Object.fromEntries(new FormData(form));

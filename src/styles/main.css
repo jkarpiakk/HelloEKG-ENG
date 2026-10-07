@@ -173,7 +173,7 @@ button { font: inherit; color: inherit; }
 
 /* ── Nav ──────────────────────────────────────────────────────────────── */
 .nav {
-  position: fixed; inset: 0 0 auto; z-index: 50; height: var(--nav-h);
+  position: fixed; inset: 0 0 auto; z-index: 50; height: calc(var(--nav-h) + env(safe-area-inset-top, 0px)); padding-top: env(safe-area-inset-top, 0px);
   background: rgba(11, 15, 20, .72);
   -webkit-backdrop-filter: saturate(140%) blur(18px); backdrop-filter: saturate(140%) blur(18px);
   border-bottom: 1px solid transparent; transition: border-color .3s;
@@ -191,9 +191,11 @@ button { font: inherit; color: inherit; }
 @media (max-width: 960px) { .nav__links { display: none; } }
 
 /* ── Reveal ───────────────────────────────────────────────────────────── */
-.js [data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity 1s var(--ease), transform 1s var(--ease); transition-delay: var(--d, 0s); }
-.js [data-reveal].is-in { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { .js [data-reveal] { opacity: 1; transform: none; } }
+/* Only elements that start below the fold are hidden (by JS, .is-pending), so
+   the first screen is always complete — for LCP, previews and no-JS readers. */
+.js [data-reveal] { transition: opacity 1s var(--ease), transform 1s var(--ease); transition-delay: var(--d, 0s); }
+.js [data-reveal].is-pending { opacity: 0; transform: translateY(28px); }
+@media (prefers-reduced-motion: reduce) { .js [data-reveal].is-pending { opacity: 1; transform: none; } }
 
 /* ── Hero / Case 01 ───────────────────────────────────────────────────── */
 .hero { padding-top: calc(var(--nav-h) + clamp(28px, 5vw, 64px)); padding-bottom: var(--section); position: relative; }

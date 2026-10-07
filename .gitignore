@@ -8,3 +8,4 @@ static/api/_data/*
 !static/api/_data/.htaccess
 public/api/_data/*
 !public/api/_data/.htaccess
+preview/

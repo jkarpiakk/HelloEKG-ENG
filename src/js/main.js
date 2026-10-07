@@ -24,17 +24,22 @@ if (navEl) {
 }
 
 // ── Reveal on scroll (staggered within a parent) ─────────────────────────
+// Elements already on screen at load stay put; only the rest animate in.
 const revealIO = new IntersectionObserver((es) => es.forEach((e) => {
   if (!e.isIntersecting) return;
-  e.target.classList.add('is-in');
+  e.target.classList.remove('is-pending');
   revealIO.unobserve(e.target);
 }), { rootMargin: '0px 0px -8% 0px' });
-$$('[data-reveal]').forEach((el) => {
-  const sibs = $$(':scope > [data-reveal]', el.parentElement);
-  const i = sibs.indexOf(el);
-  if (i > 0) el.style.setProperty('--d', `${Math.min(i, 6) * 0.08}s`);
-  revealIO.observe(el);
-});
+if (!reduce) {
+  $$('[data-reveal]').forEach((el) => {
+    if (el.getBoundingClientRect().top < innerHeight * 0.92) return;
+    const sibs = $$(':scope > [data-reveal]', el.parentElement);
+    const i = sibs.indexOf(el);
+    if (i > 0) el.style.setProperty('--d', `${Math.min(i, 6) * 0.08}s`);
+    el.classList.add('is-pending');
+    revealIO.observe(el);
+  });
+}
 
 // ── Case 01: monitor + heart in sync ─────────────────────────────────────
 let heart = null;

@@ -47,9 +47,9 @@ ${nav()}
     <div class="hero__top">
       <div class="hero__copy">
         <h1 class="hero__product" id="hero-h"><span class="live" aria-hidden="true"></span>helloEKG · The online ECG course that teaches you why</h1>
-        <p class="label label--g hero__kicker" data-reveal>${esc(c.kicker)}</p>
-        <p class="display hero__headline" data-reveal>${c.headline.map((l) => `<span>${esc(l)}</span>`).join(' ')}</p>
-        <p class="hero__vignette" data-reveal>${esc(c.vignette)}</p>
+        <p class="label label--g hero__kicker">${esc(c.kicker)}</p>
+        <p class="display hero__headline">${c.headline.map((l) => `<span>${esc(l)}</span>`).join(' ')}</p>
+        <p class="hero__vignette">${esc(c.vignette)}</p>
       </div>
       <div class="hero__heart" aria-hidden="true">
         <canvas class="heart" data-heart width="560" height="560"></canvas>
@@ -57,7 +57,7 @@ ${nav()}
       </div>
     </div>
 
-    <figure class="monitor" data-monitor data-reveal aria-label="${esc(c.monitor.aria)}">
+    <figure class="monitor" data-monitor aria-label="${esc(c.monitor.aria)}">
       <div class="monitor__bar">
         <span class="label"><span class="dot" aria-hidden="true"></span>${esc(c.monitor.bed)} · Live</span>
         <span class="label monitor__scale">II · III · aVL — 25 mm/s · 10 mm/mV</span>

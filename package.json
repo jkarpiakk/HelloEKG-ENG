@@ -9,7 +9,8 @@
     "fonts": "bash scripts/subset-fonts.sh",
     "serve": "php -S 127.0.0.1:8080 -t public",
     "qa": "node scripts/qa.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "preview": "node scripts/build.mjs && node scripts/build-preview.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.25.0",
